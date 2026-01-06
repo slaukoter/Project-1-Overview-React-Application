@@ -1,0 +1,107 @@
+.deck-detail {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.commander-section {
+  margin-bottom: 2rem;
+}
+
+.commander-card {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.commander-card img {
+  width: 220px;
+  border-radius: 8px;
+}
+
+.commander-text h4 {
+  margin-top: 0;
+}
+
+.error {
+  color: crimson;
+}
+
+.divider {
+  margin: 1.5rem 0;
+}
+
+.decklist {
+  line-height: 1.6;
+}
+
+.oracle-text {
+  white-space: pre-wrap;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 12px;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-link {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.detail-layout {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 20px;
+  align-items: start;
+}
+
+.left {
+  min-width: 0;
+}
+
+.right {
+  position: sticky;
+  top: 12px;
+  align-self: start;
+}
+
+.card-preview {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+
+.card-preview-image {
+  width: 200px;
+  border-radius: 10px;
+  flex: 0 0 auto;
+}
+
+.card-preview > div {
+  flex: 1;
+  min-width: 0;
+}
+.card-link:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
